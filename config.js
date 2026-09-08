@@ -160,10 +160,10 @@ Which condition is correct?`,
             answer: 1,
 
             clue: `Admin Name-> Madesh F17
-            Password -> 19112657'
+            Password -> 19112657
             
             
-          clue: ' 🎉 Congratulations!
+           🎉 Congratulations!
 
 You have successfully completed all 5 coding questions!
 
