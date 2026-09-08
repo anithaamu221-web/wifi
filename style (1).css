@@ -1,0 +1,317 @@
+/* ================================
+   BASIC PAGE
+================================ */
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #111827;
+}
+
+
+/* ================================
+   MAIN GAME CARD
+================================ */
+
+#game {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ================================
+   HEADINGS
+================================ */
+
+h1 {
+    color: #111827;
+}
+
+h2 {
+    color: #111827;
+}
+
+
+/* ================================
+   ICON
+================================ */
+
+.icon {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* ================================
+   QR BADGE
+================================ */
+
+.badge {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #111827;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* ================================
+   QUESTION
+================================ */
+
+.question {
+    white-space: pre-wrap;
+    text-align: left;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #111827;
+    background: #f9fafb;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+
+/* ================================
+   ATTEMPTS
+================================ */
+
+.attempts {
+    margin: 15px 0;
+    padding: 12px;
+    background: #f3f4f6;
+    border-radius: 10px;
+    color: #111827;
+    font-size: 16px;
+}
+
+
+/* ================================
+   CHOICES
+================================ */
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+
+/* IMPORTANT:
+   MAKE ANSWER BUTTONS CLEARLY VISIBLE
+*/
+
+.choice {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-height: 60px;
+
+    padding: 14px 18px;
+
+    background: white;
+    color: #111827;
+
+    border: 2px solid #374151;
+    border-radius: 12px;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    transition: 0.2s;
+}
+
+
+/* Hover */
+
+.choice:hover {
+    background: #f3f4f6;
+    border-color: #111827;
+}
+
+
+/* Letter A/B/C/D */
+
+.letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 38px;
+    height: 38px;
+
+    margin-right: 12px;
+
+    background: #111827;
+    color: white;
+
+    border-radius: 50%;
+
+    font-weight: bold;
+}
+
+
+/* Disabled choices */
+
+.choice:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* ================================
+   SUCCESS MESSAGE
+================================ */
+
+.success {
+    margin-top: 20px;
+    padding: 20px;
+
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+
+    border-radius: 16px;
+
+    color: #166534;
+}
+
+
+/* ================================
+   WRONG ANSWER
+================================ */
+
+.wrong {
+    margin-top: 20px;
+    padding: 15px;
+
+    background: #fef2f2;
+
+    border: 1px solid #fecaca;
+
+    border-radius: 12px;
+
+    color: #b91c1c;
+}
+
+
+/* ================================
+   CLUE
+================================ */
+
+.clue {
+    margin-top: 20px;
+    padding: 20px;
+
+    background: #fffbeb;
+
+    border: 1px solid #fde68a;
+
+    border-radius: 15px;
+
+    color: #78350f;
+}
+
+
+/* ================================
+   NEXT QR MESSAGE
+================================ */
+
+.next {
+    margin-top: 20px;
+    padding: 15px;
+
+    background: #eff6ff;
+
+    border-radius: 12px;
+
+    color: #1e40af;
+}
+
+
+/* ================================
+   BUTTONNS
+================================ */
+
+button {
+    font-family: Arial, sans-serif;
+}
+
+
+.btn,
+.reset-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+
+    background: #111827;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.btn:hover,
+.reset-btn:hover {
+    background: #374151;
+}
+
+
+/* ================================
+   SMALL TEXT
+================================ */
+
+.small {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    #game {
+        margin: 10px auto;
+        padding: 18px;
+    }
+
+    .question {
+        font-size: 16px;
+    }
+
+    .choice {
+        font-size: 16px;
+        min-height: 58px;
+        padding: 12px;
+    }
+
+}
