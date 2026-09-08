@@ -159,7 +159,8 @@ Which condition is correct?`,
 
             answer: 1,
 
-            clue: ` 
+            clue: `Admin Name-> Madesh F17
+            Password -> 19112657
             
             
             🎉 Congratulations!
