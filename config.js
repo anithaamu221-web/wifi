@@ -32,7 +32,7 @@ print(total)`,
 
             answer: 0,
 
-            clue: "💡 Clue 1: Find the next QR code at the place mentioned by the organizer.",
+            clue: "💡 Clue 1:I make dirty water clean and safe.You can find me at many venues.What am I?",
 
             clueImage: ""
         },
@@ -65,7 +65,7 @@ print(result)`,
 
             answer: 1,
 
-            clue: "💡 Clue 2: Find the next QR code using this clue.",
+            clue: "💡 Clue 2: I go up and fill with air.You see me at parties and celebrations.What am I?",
 
             clueImage: ""
         },
@@ -96,7 +96,7 @@ What should be changed?`,
 
             answer: 0,
 
-            clue: "💡 Clue 3: You found the bug! Now search for the next QR code.",
+            clue: "💡 Clue 3: 🔧 Where machines come for repair,🧪 where experiments take place, and 🚗 where vehicles are fixed — look around the **greenery nearby**. 🌱",
 
             clueImage: ""
         },
@@ -131,7 +131,7 @@ What is the error?`,
 
             answer: 1,
 
-            clue: "💡 Clue 4: Excellent! Find the next QR code.",
+            clue: "💡 Clue 4: Go and Find the event Coordinator  and tell them the Code-> Nexora26. He shows you the Next qr.",
 
             clueImage: ""
         },
@@ -159,7 +159,10 @@ Which condition is correct?`,
 
             answer: 1,
 
-            clue: `🎉 Congratulations!
+            clue: ` 
+            
+            
+            🎉 Congratulations!
 
 You have successfully completed all 5 coding questions!
 
